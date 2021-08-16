@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'ed574b3f-2c20-4e36-8465-c814a8defac9'
   imageRepository: 'cartmancodesqube'
   containerRegistry: 'quberegistry1.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/qube-sample-webapp/docker-compose.yml'
+  dockerfilePath: '$(Build.SourcesDirectory)/qube-sample-webapp/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
